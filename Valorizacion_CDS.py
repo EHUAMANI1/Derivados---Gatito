@@ -104,5 +104,5 @@ cols_validas, plazos_meses, plazos_anos, col_plazo = preparar_columnas_plazos(co
 
 df_nss = ajustar_e_interpolar(df, cols_validas, plazos_meses, plazos_anos, col_plazo)
 
-ruta_salida = os.path.join(base_dir, "Salida", "Resultados_NSS.xlsx")
+ruta_salida = os.path.join(base_dir, "Salida", "Interpolacion.xlsx")
 exportar_excel(df, df_nss, ruta_salida)
